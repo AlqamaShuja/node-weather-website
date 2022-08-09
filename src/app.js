@@ -59,8 +59,9 @@ app.get("/weather", (req, res) => {
 
 app.get("/about", (req, res) => {
     res.render("about", {
-        title: "About Us",
-        name: "Alqama Shuja"
+        title: "About Mw",
+        name: "Alqama Shuja",
+        description: "I am Alqama Shuja, MERN stack developer and a teacher at APTECH Learning.\n"
     });
 });
 
