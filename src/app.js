@@ -59,7 +59,7 @@ app.get("/weather", (req, res) => {
 
 app.get("/about", (req, res) => {
     res.render("about", {
-        title: "About Mw",
+        title: "About Me",
         name: "Alqama Shuja",
         description: "I am Alqama Shuja, MERN stack developer and a teacher at APTECH Learning.\n"
     });
