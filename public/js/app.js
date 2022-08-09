@@ -1,5 +1,6 @@
 const form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
+    document.getElementById("msg-1").textContent = "Loading...";
     const address = document.getElementById("address").value;
     e.preventDefault();
     fetch("/weather?location=" + address)
