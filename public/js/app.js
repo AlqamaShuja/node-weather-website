@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
     const address = document.getElementById("address").value;
     e.preventDefault();
-    fetch("http://localhost:3000/weather?location=" + address)
+    fetch("/weather?location=" + address)
         .then((data) => {
             return data.json();
         })
