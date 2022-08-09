@@ -17,6 +17,7 @@ body {
 .author-desc {
     margin-top: 15px;
     color: #333;
+    width: 250px;
 }
 
 header a {
